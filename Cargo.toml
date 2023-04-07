@@ -1,0 +1,16 @@
+[package]
+name = "rsvk"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nalgebra-glm = "0.17"
+png = "0.17"
+tobj = { version = "3", features = ["log"] }
+#/////NECESARY BELOW ///////#
+vulkano = "0.31.0"
+vulkano-win = "0.32.0"
+winit = "0.27"
+
