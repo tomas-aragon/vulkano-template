@@ -14,4 +14,5 @@ sudo dnf install -y cmake gcc-c++ fontconfig-devel
 
 echo "Finished installing executing the test vkcube"
 vkcube
+vulkaninfo
 
